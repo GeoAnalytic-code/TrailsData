@@ -2,26 +2,26 @@
   "profiles": [
     {
           "name": "Rigstreet ATV",
-          "description": "Motorized trails in ",
+          "description": "Motorized trails",
           "creationdate": "2017-07-24 14:16:28",
           "color": "#FBC02D",
           "active": true,
 		  
-          "tagsPath": "\/storage\/extSdCard\/tags.json",
-          "tagsURL": "http://myserver/trails/tags.json",
+          "tagsPath": "\/storage\/emulated\/0\/Trails\/tags.json",
+          "tagsURL": "https://github.com/GeoAnalytic-code/TrailsData/raw/master/profiles/tags.json",
 		  
-          "projectPath": "\/storage\/emulated\/0\/rigstreet.gpap",
-          "projectURL": "http://myserver/trails/rigstreet.gpap",
+          "projectPath": "\/storage\/emulated\/0\/Trails\/rigstreet.gpap",
+          "projectURL": "https://github.com/GeoAnalytic-code/TrailsData/raw/master/profiles/trails.gpap",
 		  
           "sdcardPath": "\/storage\/emulated\/0",
          
 		  "basemaps": [
-            {"path": "\/storage\/extSdCard\/alberta_oam.map",
-			 "url": "http://myserver/basemaps/alberta_oam.map"}
+            {"path": "\/storage\/emulated\/0\/Trails\/alberta_oam.map",
+			 "url": "https://github.com/GeoAnalytic-code/TrailsData/raw/master/profiles/Alberta_oam.map"}
           ],
           "spatialitedbs": [
-            {"path": "\/storage\/extSdCard\/rigstreet_v1.sqlite",
-			 "url": "http://myserver/overlays/rigstreet_v1.map"}
+            {"path": "\/storage\/emulated\/0\/Trails\/rigstreet_v1.sqlite",
+			 "url": "https://github.com/GeoAnalytic-code/TrailsData/raw/master/profiles/rigstreet_v1.sqlite"}
           ]
     }
   ]
