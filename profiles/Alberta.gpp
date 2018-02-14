@@ -10,13 +10,12 @@
 
         "sdcardPath": "\/storage\/emulated\/0",
 
-        "tagsPath": "\/Trails\/tags.json",
-        "tagsURL": "https://github.com/GeoAnalytic-code/TrailsData/raw/master/profiles/tags.json",
-
         "projectPath": "\/Trails\/trails.gpap",
         "projectURL": "https://github.com/GeoAnalytic-code/TrailsData/raw/master/profiles/trails.gpap",
 		  
-         
+        "tagsPath": "\/Trails\/tags.json",
+        "tagsURL": "https://github.com/GeoAnalytic-code/TrailsData/raw/master/profiles/tags.json",
+
         "basemaps": [
             {"path": "\/Trails\/alberta_oam.map",
 			 "url": "https://github.com/GeoAnalytic-code/TrailsData/raw/master/profiles/Alberta_oam.map"}
