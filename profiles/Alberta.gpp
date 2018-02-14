@@ -7,20 +7,20 @@
           "color": "#FBC02D",
           "active": true,
 		  
-          "tagsPath": "\/storage\/emulated\/0\/Trails\/tags.json",
+          "tagsPath": "\/Trails\/tags.json",
           "tagsURL": "https://github.com/GeoAnalytic-code/TrailsData/raw/master/profiles/tags.json",
 		  
-          "projectPath": "\/storage\/emulated\/0\/Trails\/trails.gpap",
+          "projectPath": "\/Trails\/trails.gpap",
           "projectURL": "https://github.com/GeoAnalytic-code/TrailsData/raw/master/profiles/trails.gpap",
 		  
           "sdcardPath": "\/storage\/emulated\/0",
          
 		  "basemaps": [
-            {"path": "\/storage\/emulated\/0\/Trails\/alberta_oam.map",
+            {"path": "\/Trails\/alberta_oam.map",
 			 "url": "https://github.com/GeoAnalytic-code/TrailsData/raw/master/profiles/Alberta_oam.map"}
           ],
           "spatialitedbs": [
-            {"path": "\/storage\/emulated\/0\/Trails\/rigstreet_v1.sqlite",
+            {"path": "\/Trails\/rigstreet_v1.sqlite",
 			 "url": "https://github.com/GeoAnalytic-code/TrailsData/raw/master/profiles/rigstreet_v1.sqlite"}
           ]
     }
