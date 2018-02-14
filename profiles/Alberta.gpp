@@ -1,28 +1,30 @@
 {
   "profiles": [
     {
-          "name": "Clearwater Trails",
-          "description": "Motorized trails",
-          "creationdate": "2017-07-24 14:16:28",
-          "color": "#FBC02D",
-          "active": true,
+        "name": "Clearwater Trails",
+        "description": "Motorized trails",
+        "creationdate": "2017-07-24 14:16:28",
+        "modifydate":   "2018-01-24 13:00:00",
+        "color": "#FBC02D",
+        "active": true,
+
+        "sdcardPath": "\/storage\/emulated\/0",
+
+        "tagsPath": "\/Trails\/tags.json",
+        "tagsURL": "https://github.com/GeoAnalytic-code/TrailsData/raw/master/profiles/tags.json",
+
+        "projectPath": "\/Trails\/trails.gpap",
+        "projectURL": "https://github.com/GeoAnalytic-code/TrailsData/raw/master/profiles/trails.gpap",
 		  
-          "tagsPath": "\/Trails\/tags.json",
-          "tagsURL": "https://github.com/GeoAnalytic-code/TrailsData/raw/master/profiles/tags.json",
-		  
-          "projectPath": "\/Trails\/trails.gpap",
-          "projectURL": "https://github.com/GeoAnalytic-code/TrailsData/raw/master/profiles/trails.gpap",
-		  
-          "sdcardPath": "\/storage\/emulated\/0",
          
-		  "basemaps": [
+        "basemaps": [
             {"path": "\/Trails\/alberta_oam.map",
 			 "url": "https://github.com/GeoAnalytic-code/TrailsData/raw/master/profiles/Alberta_oam.map"}
-          ],
-          "spatialitedbs": [
+        ],
+        "spatialitedbs": [
             {"path": "\/Trails\/rigstreet_v1.sqlite",
-			 "url": "https://github.com/GeoAnalytic-code/TrailsData/raw/master/profiles/rigstreet_v1.sqlite"}
-          ]
+             "url": "https://github.com/GeoAnalytic-code/TrailsData/raw/master/profiles/rigstreet_v1.sqlite"}
+        ]
     }
   ]
 }
