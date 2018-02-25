@@ -6,7 +6,7 @@
         "creationdate": "2017-07-24 14:16:28",
         "modifydate":   "2018-01-24 13:00:00",
         "color": "#FBC02D",
-        "active": true,
+        "active": false,
 
         "sdcardPath": "\/storage\/emulated\/0",
 
